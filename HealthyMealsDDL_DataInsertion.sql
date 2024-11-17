@@ -105,6 +105,20 @@ CREATE TABLE IF NOT EXISTS Has_meal (
 );
 
 
+SHOW TABLES;
+SELECT * FROM Dietary_Restrictions;
+SELECT * FROM User;
+SELECT * FROM Recipe;
+SELECT * FROM Nutrients;
+SELECT * FROM Breakfast;
+SELECT * FROM Lunch;
+SELECT * FROM Dinner;
+SELECT * FROM Snack;
+SELECT * FROM Meal_Plan;
+SELECT * FROM Has_meal;
+
+
+
 -- Populating Dietary_Restrictions table
 INSERT INTO Dietary_Restrictions (RestrictionID, RestrictionType) VALUES
 (1, 'Vegetarian'),
@@ -263,8 +277,6 @@ SELECT * FROM Snack;
 SELECT * FROM Meal_Plan;
 SELECT * FROM Has_meal;
 SELECT * FROM Cuisine_Preferences;
-
-
 
 
 
